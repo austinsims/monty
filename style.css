@@ -1,0 +1,34 @@
+.door {
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 5px;
+  border: 2px solid black;
+  display: flex;
+  font-size: xx-large;
+  height: 120px;
+  justify-content: center;
+  margin-right: 30px;
+  width: 80px;
+}
+
+.door--selectable {
+  cursor: pointer;
+}
+
+.door-selected {
+  border: 2px solid darkgray;
+  background: ghostwhite;
+}
+
+.root {
+  padding: 40px;
+}
+
+.root__door-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.root__instruction {
+  font-family: sans-serif;
+}
